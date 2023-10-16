@@ -9,7 +9,7 @@ const {UserModel}=require("./model/user.model")
 const cors=require("cors");
 app.use(express.json());
 app.use(cors({
-      origin:["http://localhost:3000"]
+      origin:["http://localhost:3000","https://kijaa.netlify.app"]
 }))
 //login signup
 app.get("/",(req,res)=>{
